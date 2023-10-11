@@ -36,5 +36,5 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           pnpm vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-          pnpm vercel deploy _site --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+          pnpm vercel deploy _site --prod --token=${{ secrets.VERCEL_TOKEN }}
 
