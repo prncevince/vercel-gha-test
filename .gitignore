@@ -34,3 +34,4 @@ notes/
 /.quarto/
 # pnpm
 node_modules/
+.vercel
